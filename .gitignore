@@ -6,6 +6,8 @@
 build/
 DerivedData/
 sheetstranslator.zip
+SheetsTranslatorBinary.artifactbundle/
+SheetsTranslatorBinary.artifactbundle.zip
 
 ## Various settings
 *.pbxuser
@@ -38,6 +40,7 @@ playground.xcworkspace
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
 # Packages/
 # Package.pins
+.swiftpm
 .build/
 
 # CocoaPods
