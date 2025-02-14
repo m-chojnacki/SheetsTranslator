@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension CFString: Hashable {
+extension CFString: @retroactive Hashable {
     
     public var hashValue: Int {
         return (self as String).hashValue
